@@ -1,0 +1,5 @@
+This file shows the changes in recent releases of FooBar.
+
+FooBar 1.0.0-pl (TDB)
+===================================
+- Nothing
