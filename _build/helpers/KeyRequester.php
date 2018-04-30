@@ -37,9 +37,9 @@ class KeyRequester
      * @param $xpdo
      * @param array $params
      */
-    public function __construct($xpdo, $params = [])
+    public function __construct(& $xpdo, $params = [])
     {
-        $this->xpdo &= $xpdo;
+        $this->xpdo= & $xpdo;
 
         $this->params = [
             'api_key' => '',

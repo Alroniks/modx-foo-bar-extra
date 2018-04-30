@@ -156,7 +156,7 @@ if (file_exists($directory . $signature) && is_dir($directory . $signature)) {
     }
 }
 
-$keyRequester = new KeyRequester([
+$keyRequester = new KeyRequester($xpdo, [
     KeyRequester::PARAM_API_KEY => 'api_key_from_modstore.pro', // ключ из modstore.pro
     KeyRequester::PARAM_USERNAME => 'email@on-mostore.pro', // email аккаунта на modstore.pro
     KeyRequester::PARAM_PACKAGE => PKG_NAME_LOWER, // имя пакета
