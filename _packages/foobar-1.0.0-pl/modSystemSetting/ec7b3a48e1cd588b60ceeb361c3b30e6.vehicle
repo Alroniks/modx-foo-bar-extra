@@ -1,0 +1,14 @@
+<?php return array (
+  'vehicle_class' => 'EncryptedVehicle',
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'class' => 'modSystemSetting',
+  'namespace' => 'foobar',
+  'vehicle_package' => 'transport',
+  'guid' => 'ede0625a4561c954699fbd757e3e1fac',
+  'package' => '',
+  'signature' => 'ec7b3a48e1cd588b60ceeb361c3b30e6',
+  'native_key' => NULL,
+  'object_encrypted' => 'GLnmPQ+XsOArEXXOA0/HSAetxA3njz/DzsRhsQnRl+DMNKBMDx3FMqrgvNaT5jOWKgK0QqSyeHGh99hbEpkEG4LXoJhtW8YSrTmG9w/unrcnsxtZzl/aG0/cqhWcaOcJBvGZ26cb6690e3Z0+mRn3mvDFZMklam8CmC1MiEkECGaiBvPcQvLfQVqnwaZHH7+',
+);

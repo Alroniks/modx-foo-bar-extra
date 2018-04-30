@@ -1,0 +1,13 @@
+<?php return array (
+  'class' => 'xPDOScriptVehicle',
+  'vehicle_class' => 'xPDOScriptVehicle',
+  'object' => 
+  array (
+    'source' => 'foobar-1.0.0-pl/xPDOScriptVehicle/1b98e1cbfab540910f1c3ce593e458ba.resolve.encryption.script',
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => '9a8b493ad3b8f85fe015cb0e12b50451',
+  'package' => '',
+  'signature' => '1b98e1cbfab540910f1c3ce593e458ba',
+  'native_key' => NULL,
+);

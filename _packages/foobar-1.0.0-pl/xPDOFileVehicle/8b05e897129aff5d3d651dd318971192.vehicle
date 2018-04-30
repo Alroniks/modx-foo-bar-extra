@@ -1,0 +1,15 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'vehicle_class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'foobar-1.0.0-pl/xPDOFileVehicle/8b05e897129aff5d3d651dd318971192/',
+    'target' => 'return MODX_CORE_PATH . \'components/foobar/\';',
+    'name' => 'encryptedvehicle.class.php',
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => '260ffcbf5a84da7d1fe49bfa1f5a7525',
+  'package' => '',
+  'signature' => '8b05e897129aff5d3d651dd318971192',
+  'native_key' => NULL,
+);
