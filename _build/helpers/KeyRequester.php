@@ -75,17 +75,16 @@ class KeyRequester
     }
 
     /**
-     * @param array $params
      * @return string
      */
-    protected function request(array $params = [])
+    protected function request()
     {
         // Стандартный запрос из кода к удаленному сервису через библиотеку cURL.
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, 'https://modstore.pro/extras/package/encode');
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/xml']);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, ArrayXMLConverter::toXML($params, 'request'));
+        curl_setopt($ch, CURLOPT_POSTFIELDS, ArrayXMLConverter::toXML($this->params, 'request'));
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
